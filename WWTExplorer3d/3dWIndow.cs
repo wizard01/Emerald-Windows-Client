@@ -1406,7 +1406,7 @@ namespace TerraViewer
             InitializeComponent();
             SetUiStrings();
 
-            this.Text = Language.GetLocalizedText(3, "Microsoft WorldWide Telescope");
+            this.Text = "Emerald Multiverse";// Language.GetLocalizedText(3, );
 
             if (!InitializeGraphics())
             {
@@ -3243,7 +3243,7 @@ namespace TerraViewer
             this.layersToolStripMenuItem.Text = Language.GetLocalizedText(1021, "Layers...");
             showFinderToolStripMenuItem.Text = Language.GetLocalizedText(59, "Show Finder");
             playCollectionAsSlideShowToolStripMenuItem.Text = Language.GetLocalizedText(60, "Play Collection as Slide Show");
-            aboutMenuItem.Text = Language.GetLocalizedText(61, "About WorldWide Telescope");
+            //aboutMenuItem.Text = Language.GetLocalizedText(61, "About Multiverse");
             homepageMenuItem.Text = Language.GetLocalizedText(63, "WorldWide Telescope Home Page");
             exitMenuItem.Text = Language.GetLocalizedText(64, "E&xit");
             checkForUpdatesToolStripMenuItem.Text = Language.GetLocalizedText(65, "Check for Updates...");
@@ -4379,8 +4379,8 @@ namespace TerraViewer
             this.toolStripSeparator2,
             this.ShowWelcomeTips,
             this.aboutMenuItem,
-            this.gettingStarteMenuItem,
-            this.homepageMenuItem,
+            //this.gettingStarteMenuItem,
+            //this.homepageMenuItem,
             this.toolStripSeparator4,
             this.exitMenuItem});
             this.exploreMenu.Name = "contextMenuStrip1";
@@ -4541,11 +4541,11 @@ namespace TerraViewer
             // 
             this.aboutMenuItem.Name = "aboutMenuItem";
             this.aboutMenuItem.Size = new System.Drawing.Size(253, 22);
-            this.aboutMenuItem.Text = "About WorldWide Telescope";
+            this.aboutMenuItem.Text = "About Multiverse";
             this.aboutMenuItem.Click += new System.EventHandler(this.aboutMenuItem_Click);
             // 
             // gettingStarteMenuItem
-            // 
+            //
             this.gettingStarteMenuItem.Name = "gettingStarteMenuItem";
             this.gettingStarteMenuItem.Size = new System.Drawing.Size(253, 22);
             this.gettingStarteMenuItem.Text = "Getting Started (Help)";
@@ -8545,7 +8545,7 @@ namespace TerraViewer
 
                 if (showPerfData)
                 {
-                    this.Text = Language.GetLocalizedText(3, "Microsoft WorldWide Telescope") + " - FPS:" + frameRate.ToString("0.0") + Language.GetLocalizedText(84, "  Tiles in View:") + Tile.TilesInView.ToString() + Language.GetLocalizedText(85, " Triangles Rendered:") + Tile.TrianglesRendered.ToString() + " Tiled Ready" + TileCache.GetReadyCount().ToString() + "Total Tiles:" + TileCache.GetTotalCount();
+                    this.Text = Language.GetLocalizedText(3, "Emerald Multiverse") + " - FPS:" + frameRate.ToString("0.0") + Language.GetLocalizedText(84, "  Tiles in View:") + Tile.TilesInView.ToString() + Language.GetLocalizedText(85, " Triangles Rendered:") + Tile.TrianglesRendered.ToString() + " Tiled Ready" + TileCache.GetReadyCount().ToString() + "Total Tiles:" + TileCache.GetTotalCount();
                 }
             }
 
@@ -14314,7 +14314,7 @@ namespace TerraViewer
             catch
             {
                 File.Delete(filename);
-                UiTools.ShowMessageBox(Language.GetLocalizedText(93, "The Imagery data file could not be downloaded or has been corrupted. WorldWide Telescope must close. You need a working internet connection to update this file. Try again later"), Language.GetLocalizedText(3, "Microsoft WorldWide Telescope"));
+                UiTools.ShowMessageBox(Language.GetLocalizedText(93, "The Imagery data file could not be downloaded or has been corrupted. WorldWide Telescope must close. You need a working internet connection to update this file. Try again later"), Language.GetLocalizedText(3, "Emerald Multiverse"));
                 return false;
             }
 
@@ -14534,7 +14534,7 @@ namespace TerraViewer
 
                 if (IsNewerVersion(minVersion, yourVersion))
                 {
-                    if (UiTools.ShowMessageBox(string.Format(Language.GetLocalizedText(95, "You must Update your client to connect to WorldWide Telescope.\n(Your version: {0}, Update version: {1})"), yourVersion, version), Language.GetLocalizedText(3, "Microsoft WorldWide Telescope"), MessageBoxButtons.OKCancel) == DialogResult.OK)
+                    if (UiTools.ShowMessageBox(string.Format(Language.GetLocalizedText(95, "You must Update your client to connect to WorldWide Telescope.\n(Your version: {0}, Update version: {1})"), yourVersion, version), Language.GetLocalizedText(3, "Emerald Multiverse"), MessageBoxButtons.OKCancel) == DialogResult.OK)
                     {
                         System.OperatingSystem osInfo = System.Environment.OSVersion;
                         if (osInfo.Version.Major < 6)
@@ -14573,7 +14573,7 @@ namespace TerraViewer
                 {
                     if (interactive || ShouldAutoUpdate())
                     {
-                        if (UiTools.ShowMessageBox(string.Format(Language.GetLocalizedText(96, "There is a new software update available.\n(Your version: {0}, Update version: {1})"), yourVersion, version), Language.GetLocalizedText(3, "Microsoft WorldWide Telescope"), MessageBoxButtons.OKCancel) == DialogResult.OK)
+                        if (UiTools.ShowMessageBox(string.Format(Language.GetLocalizedText(96, "There is a new software update available.\n(Your version: {0}, Update version: {1})"), yourVersion, version), Language.GetLocalizedText(3, "Emerald Multiverse"), MessageBoxButtons.OKCancel) == DialogResult.OK)
                         {
                             System.OperatingSystem osInfo = System.Environment.OSVersion;
                             if (osInfo.Version.Major < 6)
@@ -14606,7 +14606,7 @@ namespace TerraViewer
                 {
                     if (interactive)
                     {
-                        UiTools.ShowMessageBox(string.Format(Language.GetLocalizedText(97, "You have the latest version.\n(Your version: {0}, Server version: {1})"), yourVersion, version), Language.GetLocalizedText(3, "Microsoft WorldWide Telescope"), MessageBoxButtons.OK);
+                        UiTools.ShowMessageBox(string.Format(Language.GetLocalizedText(97, "You have the latest version.\n(Your version: {0}, Server version: {1})"), yourVersion, version), Language.GetLocalizedText(3, "Emerald Multiverse"), MessageBoxButtons.OK);
                     }
                     versionChecked = true;
 
@@ -15244,7 +15244,7 @@ namespace TerraViewer
                 }
                 catch
                 {
-                    MessageBox.Show(Language.GetLocalizedText(102, "This file does not seem to be a valid tour"), Language.GetLocalizedText(3, "Microsoft WorldWide Telescope"));
+                    MessageBox.Show(Language.GetLocalizedText(102, "This file does not seem to be a valid tour"), Language.GetLocalizedText(3, "Emerald Multiverse"));
                 }
             }
         }
@@ -15259,7 +15259,7 @@ namespace TerraViewer
 
             if (!File.Exists(filename))
             {
-                MessageBox.Show(Language.GetLocalizedText(103, "The tour file could not be downloaded and was not cached. Check you network connection."), Language.GetLocalizedText(3, "Microsoft WorldWide Telescope"));
+                MessageBox.Show(Language.GetLocalizedText(103, "The tour file could not be downloaded and was not cached. Check you network connection."), Language.GetLocalizedText(3, "Emerald Multiverse"));
                 return null;
             }
 
@@ -15267,12 +15267,12 @@ namespace TerraViewer
             if (fi.Length == 0)
             {
                 File.Delete(filename);
-                MessageBox.Show(Language.GetLocalizedText(104, "The tour file could not be downloaded and was not cached. Check you network connection."), Language.GetLocalizedText(3, "Microsoft WorldWide Telescope"));
+                MessageBox.Show(Language.GetLocalizedText(104, "The tour file could not be downloaded and was not cached. Check you network connection."), Language.GetLocalizedText(3, "Emerald Multiverse"));
                 return null;
             }
             if (fi.Length < 100)
             {
-                MessageBox.Show(Language.GetLocalizedText(105, "The tour file is invalid. Check you network connection."), Language.GetLocalizedText(3, "Microsoft WorldWide Telescope"));
+                MessageBox.Show(Language.GetLocalizedText(105, "The tour file is invalid. Check you network connection."), Language.GetLocalizedText(3, "Emerald Multiverse"));
                 File.Delete(filename);
                 return null;
             }
@@ -15317,7 +15317,7 @@ namespace TerraViewer
             }
             else
             {
-                MessageBox.Show(Language.GetLocalizedText(106, "Could not load tour"), Language.GetLocalizedText(3, "Microsoft WorldWide Telescope"));
+                MessageBox.Show(Language.GetLocalizedText(106, "Could not load tour"), Language.GetLocalizedText(3, "Emerald Multiverse"));
             }
             return tour;
         }
@@ -15337,7 +15337,7 @@ namespace TerraViewer
                 }
                 catch
                 {
-                    MessageBox.Show(Language.GetLocalizedText(109, "This file does not seem to be a valid collection"), Language.GetLocalizedText(3, "Microsoft WorldWide Telescope"));
+                    MessageBox.Show(Language.GetLocalizedText(109, "This file does not seem to be a valid collection"), Language.GetLocalizedText(3, "Emerald Multiverse"));
                 }
             }
 
@@ -15465,7 +15465,7 @@ namespace TerraViewer
                 return;
             }
 
-            if (UiTools.ShowMessageBox(Language.GetLocalizedText(111, "The file opened is a community registration file. Would you like to add this to your communities list?"), Language.GetLocalizedText(3, "Microsoft WorldWide Telescope"), MessageBoxButtons.YesNo) != DialogResult.Yes)
+            if (UiTools.ShowMessageBox(Language.GetLocalizedText(111, "The file opened is a community registration file. Would you like to add this to your communities list?"), Language.GetLocalizedText(3, "Emerald Multiverse"), MessageBoxButtons.YesNo) != DialogResult.Yes)
             {
                 return;
             }
