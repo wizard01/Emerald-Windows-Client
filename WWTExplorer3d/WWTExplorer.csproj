@@ -7,7 +7,7 @@
     <ProjectGuid>{733C84E7-58F2-4E09-AC82-58AFD7E7BDD3}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ApplicationIcon>wwt.ico</ApplicationIcon>
+    <ApplicationIcon>mv2_icon.ico</ApplicationIcon>
     <AssemblyKeyContainerName>
     </AssemblyKeyContainerName>
     <AssemblyName>WWTExplorer</AssemblyName>
@@ -166,6 +166,7 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="DSMRender, Version=5.2.10.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -2421,6 +2422,7 @@
     <None Include="Resources\point.png" />
     <None Include="Resources\target1.png" />
     <None Include="Resources\target2.png" />
+    <Content Include="mv2_icon.ico" />
     <Content Include="Resources\TouchControlsNoHold.png" />
     <None Include="Resources\xbox360.png" />
     <None Include="Resources\xbox360Layour.jpg" />

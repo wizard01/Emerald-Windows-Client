@@ -68,15 +68,15 @@ namespace TerraViewer
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(138, 82);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(333, 30);
+            this.label1.Size = new System.Drawing.Size(226, 30);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Welcome to WorldWide Telescope";
+            this.label1.Text = "Welcome to Multiverse";
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(22)))), ((int)(((byte)(31)))));
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -88,7 +88,7 @@ namespace TerraViewer
             this.richTextBox1.Size = new System.Drawing.Size(468, 186);
             this.richTextBox1.TabIndex = 4;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
-            this.richTextBox1.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.richTextBox1_LinkClicked);
+            //this.richTextBox1.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.richTextBox1_LinkClicked);
             // 
             // timer1
             // 
@@ -114,6 +114,8 @@ namespace TerraViewer
             // dontShowAgain
             // 
             this.dontShowAgain.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.dontShowAgain.BackColor = System.Drawing.Color.Transparent;
+            this.dontShowAgain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.dontShowAgain.Checked = false;
             this.dontShowAgain.Location = new System.Drawing.Point(8, 318);
             this.dontShowAgain.Name = "dontShowAgain";
@@ -141,9 +143,9 @@ namespace TerraViewer
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Load += new System.EventHandler(this.Welcome_Load);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Welcome_FormClosed);
-            this.CausesValidationChanged += new System.EventHandler(this.c);
+            //this.Load += new System.EventHandler(this.Welcome_Load);
+            //this.CausesValidationChanged += new System.EventHandler(this.c);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
