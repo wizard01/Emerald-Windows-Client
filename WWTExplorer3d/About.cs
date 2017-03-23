@@ -49,7 +49,6 @@ namespace TerraViewer
 		private void InitializeComponent()
 		{
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(About));
             this.aboutText = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button1 = new System.Windows.Forms.Button();
@@ -58,11 +57,12 @@ namespace TerraViewer
             // aboutText
             // 
             this.aboutText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(222)))), ((int)(((byte)(227)))));
-            this.aboutText.Location = new System.Drawing.Point(46, 279);
+            this.aboutText.Location = new System.Drawing.Point(150, 307);
             this.aboutText.Name = "aboutText";
-            this.aboutText.Size = new System.Drawing.Size(572, 271);
+            this.aboutText.Size = new System.Drawing.Size(467, 164);
             this.aboutText.TabIndex = 0;
-            this.aboutText.Text = resources.GetString("aboutText.Text");
+            this.aboutText.Text = "Copyright © 2017 Emerald Corporation\r\n\r\nEmerald Research\r\nIdo Bareket, Zevik Knob" +
+    "ler, Ofir Herzas\r\n";
             this.aboutText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.aboutText.MouseClick += new System.Windows.Forms.MouseEventHandler(this.aboutText_MouseClick);
             // 
@@ -77,7 +77,7 @@ namespace TerraViewer
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(222)))), ((int)(((byte)(227)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.button1.Location = new System.Drawing.Point(413, 208);
+            this.button1.Location = new System.Drawing.Point(41, 352);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(60, 24);
             this.button1.TabIndex = 2;

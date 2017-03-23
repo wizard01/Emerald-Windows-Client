@@ -117,28 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="aboutText.Text" xml:space="preserve">
-    <value>Copyright © 2015 Microsoft Corporation
-
-Dedicated to Jim Gray
-
-Imagery is Courtesy of SDSS, DSS, STScI, IPAC, CfA, NASA, USNO, WMAP, USGS and Bing Maps.
-Additional Imagery credits is contained in Imageset Information properties dialog.
-
-Microsoft Research
-Jonathan Fay, Curtis Wong,
-Eric Carter, Ed Cook, Rob Fatland, Jessika Gebauer, Darren Gehring, Ron Gilchrist,
-Rick Gutierrez, Nils Kock, Ben Kunz, Gavin Jancke, Paul Johns, Chris Laurel, Chuck Needham,
-ThuVan Pham, Doug Roberts, Phil Rosenfield, Kim Rush, Jina Suh, Dinoj Surendran, Peter Turcan
-Special Thanks to Peter Lee, Rick Rashid, Tony Hey, Jim Pinkelman, Michael Zyskowski
-Dan Fay, Tom Barclay, Wyman Chong
-
-In collaboration with:
-Alex Szalay, Miguel Aragon  - Johns Hopkins Univ, Mark Subbarao, Randy Lansberg - Adler SVL
-Alyssa Goodman, Gus Muench, Doug Finkbeiner, Roy Gould  - CfA 
-Frank Summers, Brian McLean, Alberto Conti, Carol Christian - STScI, Robert Hurt, John Good - IPAC
-Megan Watzke, Kimberly Kowal Arcand - Chandra, George Djorgovski, Ashish Mahabal, Roy Williams - Cal Tech</value>
-  </data>
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

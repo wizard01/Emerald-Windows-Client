@@ -555,7 +555,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\WWTSetup.msi"
+        "OutputFilename" = "8:Debug\\MV2Setup.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -587,7 +587,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\WWTSetup.msi"
+        "OutputFilename" = "8:Release\\MV2Setup.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -734,8 +734,8 @@
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_130FB70F0CAB4A4DB846B7DFC33D4C1F"
             {
-            "SourcePath" = "8:..\\WWTExplorer3d\\wwt.ico"
-            "TargetName" = "8:wwt.ico"
+            "SourcePath" = "8:..\\WWTExplorer3d\\mv2_icon.ico"
+            "TargetName" = "8:mv2_icon.ico"
             "Tag" = "8:"
             "Folder" = "8:_8994134A3002496B9ACD2171AA6B2439"
             "Condition" = "8:"
@@ -907,7 +907,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:WWTCore, Version=5.5.3.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:MV2Core, Version=5.5.3.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_2EDA71DA7C3A485AF15A3C17240FB321"

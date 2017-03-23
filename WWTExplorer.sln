@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WWTExplorer", "WWTExplorer3d\WWTExplorer.csproj", "{733C84E7-58F2-4E09-AC82-58AFD7E7BDD3}"
 EndProject
@@ -58,6 +58,7 @@ Global
 		{733C84E7-58F2-4E09-AC82-58AFD7E7BDD3}.Release|x86.Build.0 = Release|x86
 		{6865F98A-B7F4-42B7-B877-4DB859A984D1}.Debug|Any CPU.ActiveCfg = Debug
 		{6865F98A-B7F4-42B7-B877-4DB859A984D1}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{6865F98A-B7F4-42B7-B877-4DB859A984D1}.Debug|Mixed Platforms.Build.0 = Debug
 		{6865F98A-B7F4-42B7-B877-4DB859A984D1}.Debug|Win32.ActiveCfg = Debug
 		{6865F98A-B7F4-42B7-B877-4DB859A984D1}.Debug|Win32.Build.0 = Debug
 		{6865F98A-B7F4-42B7-B877-4DB859A984D1}.Debug|x64.ActiveCfg = Debug
