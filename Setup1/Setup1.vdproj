@@ -1952,7 +1952,7 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Multiverse"
+        "ProductName" = "8:Multiverse2"
         "ProductCode" = "8:{00C5D859-234D-401B-B4F5-4DD14A0FEB22}"
         "PackageCode" = "8:{1B38F525-CCAC-4EB9-B6D1-52B55EFC5801}"
         "UpgradeCode" = "8:{543D9051-C7F5-4C6B-BEA5-6CA148C8487F}"
@@ -1961,15 +1961,15 @@
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:5.5.20"
-        "Manufacturer" = "8:Multiverse"
+        "ProductVersion" = "8:1.0.4"
+        "Manufacturer" = "8:Emerald Corp"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Multiverse 5.5"
+        "Title" = "8:Multiverse 1.0"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Jonathan Fay"
+        "ARPCONTACT" = "8:Zevik Knobler"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:Multiverse 5.5"
+        "ARPCOMMENTS" = "8:Multiverse 1.0"
         "ARPURLINFOABOUT" = "8:"
         "ARPPRODUCTICON" = "8:_A44D4B70D9BA4692970011F25FAEC59D"
         "ARPIconIndex" = "3:0"
@@ -2906,7 +2906,7 @@
                             "Setting" = "3:2"
                             "Value" = "8:Automatically check for updates whenever MulitVerse2 is launched"
                             "DefaultValue" = "8:#1234"
-                            "UsePlugInResources" = "11:TRUE"
+                            "UsePlugInResources" = "11:False"
                             }
                             "Checkbox1Property"
                             {
@@ -2919,7 +2919,7 @@
                             "Setting" = "3:2"
                             "Value" = "8:AUTOUPDATE"
                             "DefaultValue" = "8:CHECKBOXA1"
-                            "UsePlugInResources" = "11:TRUE"
+                            "UsePlugInResources" = "11:False"
                             }
                             "Checkbox1Value"
                             {
