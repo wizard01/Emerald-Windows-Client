@@ -67,6 +67,7 @@ Global
 		{6865F98A-B7F4-42B7-B877-4DB859A984D1}.Debug|x86.Build.0 = Debug
 		{6865F98A-B7F4-42B7-B877-4DB859A984D1}.Release|Any CPU.ActiveCfg = Release
 		{6865F98A-B7F4-42B7-B877-4DB859A984D1}.Release|Mixed Platforms.ActiveCfg = Release
+		{6865F98A-B7F4-42B7-B877-4DB859A984D1}.Release|Mixed Platforms.Build.0 = Release
 		{6865F98A-B7F4-42B7-B877-4DB859A984D1}.Release|Win32.ActiveCfg = Release
 		{6865F98A-B7F4-42B7-B877-4DB859A984D1}.Release|Win32.Build.0 = Release
 		{6865F98A-B7F4-42B7-B877-4DB859A984D1}.Release|x64.ActiveCfg = Release

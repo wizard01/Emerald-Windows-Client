@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:WorldWide Telescope"
+"ProjectName" = "8:MulitVerse2"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -1865,7 +1865,7 @@
                 {
                     "{9EF0B969-E518-4E46-987F-47570745A589}:_ECC01109864E400BB28A158566D66687"
                     {
-                    "Name" = "8:WorldWide Telescope"
+                    "Name" = "8:Multivers"
                     "AlwaysCreate" = "11:FALSE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
@@ -1889,7 +1889,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_8994134A3002496B9ACD2171AA6B2439"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder]Microsoft Research\\Microsoft WorldWide Telescope"
+            "DefaultLocation" = "8:[ProgramFilesFolder]Emerald\\Multiverse2"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -1906,7 +1906,7 @@
             {
             "Name" = "8:DirectX Required"
             "Condition" = "8:MDXFOUND <> \"asdasdasd\""
-            "Message" = "8:WorldWide Telescope Requires Microsoft DirectX. Please click Yes to view the download site for the DirectX installation. Then restart setup once DirectX setup is complete."
+            "Message" = "8:Emerald Multiverse Requires Microsoft DirectX. Please click Yes to view the download site for the DirectX installation. Then restart setup once DirectX setup is complete."
             "InstallUrl" = "8:http://www.microsoft.com/downloads/details.aspx?familyid=2da43d38-db71-4c1b-bc6a-9b6652cd92a3"
             }
         }
@@ -2422,7 +2422,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A23EC8CC2030493F9D4B19B9355F2877"
             {
-            "Name" = "8:WorldWide Telescope"
+            "Name" = "8:Emerald MulitVerse2"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -2436,7 +2436,7 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_EC777E943FE244C7A57DDDD1B4F98FCD"
             {
-            "Name" = "8:WorldWide Telescope"
+            "Name" = "8:MulitVerse2"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -2904,7 +2904,7 @@
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
                             "Setting" = "3:2"
-                            "Value" = "8:Automatically check for updates whenever WorldWide Telescope is launched"
+                            "Value" = "8:Automatically check for updates whenever MulitVerse2 is launched"
                             "DefaultValue" = "8:#1234"
                             "UsePlugInResources" = "11:TRUE"
                             }
