@@ -1362,7 +1362,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Terms_of_use_Nov_2011.rtf">
+    <None Include="Terms_of_use_March_2017.rtf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Web References\fr.u-strasbg.cdsws\Reference.map">
