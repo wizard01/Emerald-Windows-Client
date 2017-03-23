@@ -3738,15 +3738,15 @@ namespace TerraViewer.edu.stsci.nvo {
     }
     
     /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Authority))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DataCollection))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Authority))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Service))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Registry1))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(SkyService))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(TabularSkyService))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(OpenSkyNode))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(SimpleImageAccess))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ConeSearch))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Registry1))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Organisation))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
     [System.SerializableAttribute()]
@@ -3908,27 +3908,6 @@ namespace TerraViewer.edu.stsci.nvo {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.ivoa.net/xml/VORegistry/v0.3")]
-    public partial class Authority : Resource {
-        
-        private ResourceName managingOrgField;
-        
-        /// <remarks/>
-        public ResourceName managingOrg {
-            get {
-                return this.managingOrgField;
-            }
-            set {
-                this.managingOrgField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.ivoa.net/xml/VODataService/v0.5")]
     public partial class DataCollection : Resource {
         
@@ -4026,12 +4005,33 @@ namespace TerraViewer.edu.stsci.nvo {
     }
     
     /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Registry1))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.ivoa.net/xml/VORegistry/v0.3")]
+    public partial class Authority : Resource {
+        
+        private ResourceName managingOrgField;
+        
+        /// <remarks/>
+        public ResourceName managingOrg {
+            get {
+                return this.managingOrgField;
+            }
+            set {
+                this.managingOrgField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(SkyService))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(TabularSkyService))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(OpenSkyNode))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(SimpleImageAccess))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ConeSearch))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Registry1))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -4049,28 +4049,6 @@ namespace TerraViewer.edu.stsci.nvo {
             }
             set {
                 this.interfaceField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="Registry", Namespace="http://www.ivoa.net/xml/VORegistry/v0.3")]
-    public partial class Registry1 : Service {
-        
-        private string[] managedAuthorityField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("managedAuthority")]
-        public string[] managedAuthority {
-            get {
-                return this.managedAuthorityField;
-            }
-            set {
-                this.managedAuthorityField = value;
             }
         }
     }
@@ -4210,6 +4188,28 @@ namespace TerraViewer.edu.stsci.nvo {
             }
             set {
                 this.capabilityField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="Registry", Namespace="http://www.ivoa.net/xml/VORegistry/v0.3")]
+    public partial class Registry1 : Service {
+        
+        private string[] managedAuthorityField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("managedAuthority")]
+        public string[] managedAuthority {
+            get {
+                return this.managedAuthorityField;
+            }
+            set {
+                this.managedAuthorityField = value;
             }
         }
     }

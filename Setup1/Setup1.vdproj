@@ -1717,7 +1717,7 @@
             "{5EB83D71-FA18-4901-BE56-DE22E13CC478}:_355143073CD34567A1E85527A05B3256"
             {
             "Name" = "8:WorldWideTelescope.wtml"
-            "Description" = "8:WorldWide Telescope Media List"
+            "Description" = "8:MultiVerse2 Media List"
             "Extensions" = "8:.wtml"
             "MIME" = "8:application/x-wtml"
             "Icon" = "8:_130FB70F0CAB4A4DB846B7DFC33D4C1F"
@@ -1740,7 +1740,7 @@
             "{5EB83D71-FA18-4901-BE56-DE22E13CC478}:_608CC2CFFCC94CE29581E423B395D779"
             {
             "Name" = "8:WorldWideTelescope.wwtl"
-            "Description" = "8:WorldWide Telescope Layer File"
+            "Description" = "8:MulitVerse2 Layer File"
             "Extensions" = "8:.wwtl"
             "MIME" = "8:application/x-wwtl"
             "Icon" = "8:_130FB70F0CAB4A4DB846B7DFC33D4C1F"
@@ -1786,7 +1786,7 @@
             "{5EB83D71-FA18-4901-BE56-DE22E13CC478}:_D8325788CDE14DEC8DEE411452C401C3"
             {
             "Name" = "8:WorldWideTelescope.wwtfig"
-            "Description" = "8:WorldWide Telescope Constellation Figures"
+            "Description" = "8:MulitVerse2 Constellation Figures"
             "Extensions" = "8:.wwtfig"
             "MIME" = "8:application/x-wwtfig"
             "Icon" = "8:_130FB70F0CAB4A4DB846B7DFC33D4C1F"
@@ -2146,7 +2146,7 @@
                                 {
                                     "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_AA994987B73A45E0A37452BA0E40E0CE"
                                     {
-                                    "Name" = "8:WorldWide Telescope"
+                                    "Name" = "8:MulitVerse2"
                                     "Condition" = "8:"
                                     "AlwaysCreate" = "11:FALSE"
                                     "DeleteAtUninstall" = "11:FALSE"
@@ -3191,7 +3191,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_8C920A1E441C49CCA1D5048846532EFC"
             {
-            "SourcePath" = "8:..\\WWTExplorer3d\\obj\\Debug\\WWTExplorer.exe"
+            "SourcePath" = "8:..\\WWTExplorer3d\\obj\\Debug\\MN2Explorer.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_8994134A3002496B9ACD2171AA6B2439"
