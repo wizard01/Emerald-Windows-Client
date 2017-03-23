@@ -7,11 +7,11 @@ using System.Resources;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Multivers")]
-[assembly: AssemblyDescription("Interactive 3D viewer for the WorldWide Telescope")]
+[assembly: AssemblyDescription("Interactive 3D viewer for the Emerald MultiVerse2")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft Research")]
+[assembly: AssemblyCompany("Emerald Corp")]
 [assembly: AssemblyProduct("Multivers")]
-[assembly: AssemblyCopyright("Copyright 2015 Microsoft Corporation")]
+[assembly: AssemblyCopyright("Copyright 2017 Emerald Corporation")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -30,8 +30,8 @@ using System.Resources;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("5.5.20.1")]
-[assembly: AssemblyFileVersion("5.5.20.1")]
+[assembly: AssemblyVersion("5.5.55.1")]
+[assembly: AssemblyFileVersion("5.5.55.1")]
 [assembly: NeutralResourcesLanguageAttribute("en-US")]
 [assembly: System.Windows.Media.DisableDpiAwareness]
 
