@@ -15,12 +15,12 @@ Because of GitHub's 100mb file limit you will also have to unzip the datafiles f
 Building
 --------
 
-After cloning the repository to your local machine (or downloading as a zip and unzipping to a directory of your choice), open the Solution:  File->Open->Project/Solution-> [local repository path\wwt-windows-client<-master>]\WWTExplorer.sln
+After cloning the repository to your local machine (or downloading as a zip and unzipping to a directory of your choice), open the Solution:  File->Open->Project/Solution-> [local repository path\Emerald-windows-client<-master>]\WWTExplorer.sln
 
 Then: Build -> Build Solution
 It will then compile the projects, and link appropriately.   
 
-After a successful build, the WorldWide Telescope Windows Client executable will be found here: 
-[local repository path\wwt-windows-client<-master>]\WWTExplorer3D\bin\Debug\WWTExplorer.exe
+After a successful build, the Emerald MultiVerse Windows Client executable will be found here: 
+[local repository path\Emerald-windows-client<-master>]\WWTExplorer3D\bin\Debug\MV2Explorer.exe
 
 Happy Hacking!
