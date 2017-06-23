@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace TerraViewer
 {
-    public enum ApplicationMode { Explore, Tours, Search, Community, Telescope, View, Settings, Tour1, Tour2, Tour3, Tour4, Tour5 };
+    public enum ApplicationMode { Explore, Tours, Search, View, Settings, Tour1, Tour2, Tour3, Tour4, Tour5, Community, Telescope };
     public enum ControlAction { Close, Minimize, Maximize, Restore, AppMenu, CloseTour, SignOut, SignIn };
 
     public delegate void TabClickedEventHandler(object sender, ApplicationMode e);
@@ -39,8 +39,8 @@ namespace TerraViewer
             tabs.Add(Language.GetLocalizedText(134, "Explore"));
             tabs.Add(Language.GetLocalizedText(135, "Guided Tours"));
             tabs.Add(Language.GetLocalizedText(137, "Search"));
-            tabs.Add(Language.GetLocalizedText(138, "Community"));
-            tabs.Add(Language.GetLocalizedText(139, "Telescope"));
+            //tabs.Add(Language.GetLocalizedText(138, "Community"));
+            //tabs.Add(Language.GetLocalizedText(139, "Telescope"));
             tabs.Add(Language.GetLocalizedText(140, "View"));
             tabs.Add(Language.GetLocalizedText(141, "Settings"));
             tours = new List<TourDocument>();
@@ -297,7 +297,7 @@ namespace TerraViewer
 
             }
 
-            if (Earth3d.IsLoggedIn)
+            /*if (Earth3d.IsLoggedIn)
             {
                 RectangleF rect2 = new RectangleF((Width - 80), 6, 80, 27);
 
@@ -312,7 +312,7 @@ namespace TerraViewer
                 g.DrawString(Language.GetLocalizedText(962, "Sign In"), font, brush, rect2, format);
 
                 g.DrawLine(Pens.LightBlue, Width - 80, 0, Width - 80, 30);
-            }
+            }*/
         }
 
         public bool IsVisible 

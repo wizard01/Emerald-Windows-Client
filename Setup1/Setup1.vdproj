@@ -3106,7 +3106,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_8C920A1E441C49CCA1D5048846532EFC"
             {
-            "SourcePath" = "8:..\\WWTExplorer3d\\obj\\Release\\MV2Explorer.exe"
+            "SourcePath" = "8:..\\WWTExplorer3d\\obj\\Release\\WWTExplorer.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_8994134A3002496B9ACD2171AA6B2439"

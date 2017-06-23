@@ -4065,10 +4065,10 @@ namespace TerraViewer
             // 
             this.toursMenu.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.toursMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tourHomeMenuItem,
-            this.tourSearchWebPageMenuItem,
-            this.musicAndOtherTourResourceToolStripMenuItem,
-            this.toolStripSeparator6,
+            //this.tourHomeMenuItem,
+            //this.tourSearchWebPageMenuItem,
+            //this.musicAndOtherTourResourceToolStripMenuItem,
+            //this.toolStripSeparator6,
             this.createANewTourToolStripMenuItem,
             this.saveTourAsToolStripMenuItem,
             this.publishTourMenuItem,
@@ -4082,8 +4082,8 @@ namespace TerraViewer
             this.toolStripMenuItem12,
             this.undoToolStripMenuItem,
             this.redoToolStripMenuItem,
-            this.toolStripMenuItem13,
-            this.publishTourToCommunityToolStripMenuItem,
+            //this.toolStripMenuItem13,
+            //this.publishTourToCommunityToolStripMenuItem,
             this.toolStripSeparator23,
             this.sendTourToProjectorServersToolStripMenuItem,
             this.automaticTourSyncWithProjectorServersToolStripMenuItem});
@@ -4578,8 +4578,8 @@ namespace TerraViewer
             //this.toolStripMenuItem1,
             //this.feedbackToolStripMenuItem,
             //this.toolStripSeparator17,
-            this.restoreDefaultsToolStripMenuItem,
-            this.toolStripSeparator16,
+            //this.restoreDefaultsToolStripMenuItem,
+            //this.toolStripSeparator16,
             this.advancedToolStripMenuItem,
             this.mIDIControllerSetupToolStripMenuItem,
             this.xBoxControllerSetupToolStripMenuItem,
@@ -5073,12 +5073,12 @@ namespace TerraViewer
             // 
             this.stereoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.enabledToolStripMenuItem,
-            this.anaglyphToolStripMenuItem,
-            this.anaglyphYellowBlueToolStripMenuItem,
-            this.sideBySideProjectionToolStripMenuItem,
-            this.sideBySideCrossEyedToolStripMenuItem,
-            this.alternatingLinesOddToolStripMenuItem,
-            this.alternatingLinesEvenToolStripMenuItem,
+            //this.anaglyphToolStripMenuItem,
+            //this.anaglyphYellowBlueToolStripMenuItem,
+            //this.sideBySideProjectionToolStripMenuItem,
+            //this.sideBySideCrossEyedToolStripMenuItem,
+            //this.alternatingLinesOddToolStripMenuItem,
+            //this.alternatingLinesEvenToolStripMenuItem,
             this.oculusRiftToolStripMenuItem});
             this.stereoToolStripMenuItem.Name = "stereoToolStripMenuItem";
             this.stereoToolStripMenuItem.Size = new System.Drawing.Size(340, 22);
@@ -11780,7 +11780,7 @@ namespace TerraViewer
 
             if (starting)
             {
-                if (UiTools.ShowMessageBox(Language.GetLocalizedText(689, "WorldWide Telescope encountered an error starting up. Would you like WorldWide Telescope to attempt a reset of the data directory and restart?"), Language.GetLocalizedText(3, "Microsoft WorldWide Telescope"), MessageBoxButtons.OKCancel) == DialogResult.OK)
+                if (UiTools.ShowMessageBox(Language.GetLocalizedText(689, "Multiverse encountered an error starting up. Would you like WorldWide Telescope to attempt a reset of the data directory and restart?"), Language.GetLocalizedText(3, "Microsoft WorldWide Telescope"), MessageBoxButtons.OKCancel) == DialogResult.OK)
                 {
                     ResetDataDirectory();
                     ResetStartFlag();
@@ -11791,7 +11791,7 @@ namespace TerraViewer
             }
             else
             {
-                if (UiTools.ShowMessageBox(Language.GetLocalizedText(690, "WorldWide Telescope has encountered an error. Click OK to restart or Cancel to attempt to ignore the error and continue"), Language.GetLocalizedText(3, "Microsoft WorldWide Telescope"), MessageBoxButtons.OKCancel) == DialogResult.OK)
+                if (UiTools.ShowMessageBox(Language.GetLocalizedText(690, "Multiverse has encountered an error. Click OK to restart or Cancel to attempt to ignore the error and continue"), Language.GetLocalizedText(3, "Microsoft WorldWide Telescope"), MessageBoxButtons.OKCancel) == DialogResult.OK)
                 {
                     Process.Start("wwtexplorer.exe", "restart");
                     Process.GetCurrentProcess().Kill();
@@ -15613,8 +15613,6 @@ namespace TerraViewer
                 MessageBox.Show(Language.GetLocalizedText(112, "The image file did not contain recognizable WCS or AVM Metadata to position it in the sky"), Language.GetLocalizedText(113, "Load Image"), MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
-
-
 
         private void menuTabs_Load(object sender, EventArgs e)
         {
