@@ -1362,6 +1362,8 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="Resources\EARTHPROJECTIONS.mic" />
+    <None Include="Resources\Thumbs.db" />
     <None Include="Terms_of_use_March_2017.rtf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -2419,10 +2421,19 @@
     <Content Include="DSMRender.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Resources\WelcomeLogo.png" />
     <None Include="Resources\point.png" />
     <None Include="Resources\target1.png" />
     <None Include="Resources\target2.png" />
     <Content Include="mv2_icon.ico" />
+    <Content Include="Resources\glyph_close.png" />
+    <Content Include="Resources\glyph_replay.png" />
+    <Content Include="Resources\KioskControls.png" />
+    <Content Include="Resources\milkywaybarsmall.jpg" />
+    <Content Include="Resources\NGC3015-PS.jpg" />
+    <Content Include="Resources\Pano Stitch small.png" />
+    <Content Include="Resources\solarSystem.png" />
+    <Content Include="Resources\Sprite 72.jpg" />
     <Content Include="Resources\TouchControlsNoHold.png" />
     <None Include="Resources\xbox360.png" />
     <None Include="Resources\xbox360Layour.jpg" />
