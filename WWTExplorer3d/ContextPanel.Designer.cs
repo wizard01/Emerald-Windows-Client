@@ -579,7 +579,7 @@ namespace TerraViewer
             this.Controls.Add(this.actualSizeLabel);
             this.Controls.Add(this.solarSystemScaleTrackbar);
             this.Controls.Add(this.trackingTarget);
-            this.Controls.Add(this.info);
+            //this.Controls.Add(this.info);
             this.Controls.Add(this.studyOpacity);
             this.Controls.Add(this.viewTarget);
             this.Controls.Add(this.ImageDataSetsCombo);
